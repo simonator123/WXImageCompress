@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "Kingfisher",
-    platforms: [.iOS(.v10)]
+    platforms: [.iOS(.v10)],
     products: [
         .library(name: "WXImageCompress", targets: ["WXImageCompress"])
    ],
